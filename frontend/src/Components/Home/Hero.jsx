@@ -14,7 +14,7 @@ const Hero = () => {
   };
 
   const scheduleCall =()=>{
-    const phoneNumber = import.meta.env.VITE_PHONE_NUMBER;
+    const phoneNumber = "+91-9751339617";
     window.location.href = `tel:${phoneNumber}`;
   }
 
